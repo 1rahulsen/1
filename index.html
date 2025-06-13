@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Sen | Product Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0f1a;
+      --text: #e0e0e0;
+      --accent: #8f5aff;
+      --secondary: #23d8d8;
+      --card: #1a1a2e;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem;
+      transition: all 0.5s ease;
+    }
+    h1, h2, h3 {
+      color: var(--accent);
+      transition: color 0.4s ease;
+    }
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+    .section {
+      margin-bottom: 4rem;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+    .section:nth-child(odd) {
+      animation-delay: 0.3s;
+    }
+    .section:nth-child(even) {
+      animation-delay: 0.6s;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .hero {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      color: var(--secondary);
+      font-style: italic;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 0 15px rgba(143, 90, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero section">
+    <h1>Rahul Sen</h1>
+    <p class="tagline">Building human-first products with precision, empathy, and scale.</p>
+    <p><a href="mailto:rahuldeblocks@gmail.com">rahuldeblocks@gmail.com</a> | 
+       <a href="https://www.linkedin.com/in/rahulsenofficial/" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Associate Product Manager @ Mocero Health | B.Tech CSE (8.75 CGPA)</p>
+      <p>I lead patient workflow optimization, user testing, and CRM development for a healthtech platform. Passionate about solving operational bottlenecks and enhancing user journeys through data-driven product thinking.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Core Expertise</h2>
+    <div class="card">
+      <ul>
+        <li>Product Management • Project Planning • CRM Strategy</li>
+        <li>Figma Wireframing • Excel/SQL • Feature Prioritization</li>
+        <li>Consulting Frameworks: SWOT, PESTEL, Porter’s, Blue Ocean</li>
+        <li>Ops & Logistics Thinking • Supply Chain Optimization</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Highlights</h2>
+    <div class="card">
+      <ul>
+        <li>🟣 PPO from Mocero for performance excellence</li>
+        <li>📊 A/B Testing for Dhanwantralaya CRM features</li>
+        <li>🎓 Top 9 in IIM Calcutta PRIDECORP Case Study</li>
+        <li>🧠 Created hospital workflow UI/UX in Figma (First in cohort)</li>
+        <li>🏆 10+ National Case Competitions: IIM-B, IIM-C, SSBF</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Certifications</h2>
+    <div class="card">
+      <ul>
+        <li>Six Sigma White Belt – Aveta</li>
+        <li>Leadership Skills – IIM A (Coursera)</li>
+        <li>Google Digital Marketing</li>
+        <li>Sustainable Finance – UNDP</li>
+        <li>Excel Certification – LLA Institute</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:rahuldeblocks@gmail.com">rahuldeblocks@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/rahulsenofficial/" target="_blank">rahulsenofficial</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rahul Sen | All rights reserved.</p>
+  </footer>
+</body>
+</html>
